@@ -36,7 +36,7 @@ export default {
     },
     startPomodoro() {
       if (!this.started) {
-        this.interval = setInterval(this.decreaseSeconds, 10)
+        this.interval = setInterval(this.decreaseSeconds, 1000)
         this.started = true
       }
     },
